@@ -131,6 +131,9 @@ GameObject:
   - component: {fileID: 1494434966}
   - component: {fileID: 1494434965}
   - component: {fileID: 1494434964}
+  - component: {fileID: 1494434970}
+  - component: {fileID: 1494434969}
+  - component: {fileID: 1494434968}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +259,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494434968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494434962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae279d4b96fb95418f233dcd83d2031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Task3
+--- !u!114 &1494434969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494434962}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779c6e0f4142e2d4bac1795492ec5ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Task2
+--- !u!114 &1494434970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494434962}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be41499f7a9f37479b4635936556be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Task1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
